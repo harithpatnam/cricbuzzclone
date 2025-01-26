@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRICBUZZ USER-INTERFACE CLONE</title>
+    <link rel="stylesheet" href="cricstyles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="headertop">
+                <ul id="ul1">
+                    <li>
+                        <img src="criclogo.png" alt="criclogo1" id="criclogoimg">
+                    </li>
+                    <li>
+                        <a href="#livescores">livescores</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">schedule</a>
+                    </li>
+                    <li>
+                        <a href="#archives">archives</a>
+                    </li>
+                    <li>
+                        <select name="news" id="s1">
+                            <option >news</option>
+                            <option value="all stories" id="s1">all stories</option>
+                            <option value="live blogs" id="s1">live blogs</option>
+                            <option value="interviews" id="s1">interviews</option>
+                            <option value="latest news" id="s1">latest news</option>
+                            <option value="other news" id="s1">othernews</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="series" id="s1">
+                            <option >series</option>
+                            <option value="ICC MENS T20 WC-2024" id="s1">ICC MENS T20 WC-2024</option>
+                            <option value="IPL-2024" id="s1">IPL-2024</option>
+                            <option value="BIG BASH LEAGUE-2024" id="s1">BIG BASH LEAGUE-2024</option>
+                            <option value="INDIA TOUR SOUTHAFRICA-2024" id="s1">INDIA TOUR SOUTHAFRICA-2024</option>
+                            <option value="WPL-2024" id="s1">WPL-2024</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="teams" id="s1">
+                            <option >teams</option>
+                            <option value="t1" id="s1">INDIA</option>
+                            <option value="t2" id="s1">BANGLADESH</option>
+                            <option value="t3" id="s1">NEPAL</option>
+                            <option value="t4" id="s1">ENGLAND</option>
+                            <option value="t5" id="s1">AUSTRALIA</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="videos" id="s1">
+                            <option >videos</option>
+                            <option value="v1" id="s1">all videos</option>
+                            <option value="v2" id="s1">categories</option>
+                            <option value="v3"id="s1">playlists</option>
+                           
+                        </select>
+                    </li>
+                    <li>
+                        <select name="ranking" id="s1">
+                            <option >ranking</option>
+                            <option value="r1" id="s1">ICC RANKINGS-MEN >></option>
+                            <option value="r2"  id="s1">ICC RANKINGS-WOMEN >></option>
+                            
+                        </select>
+                    </li>
+                    <li>
+                        <select name="more" id="s1">
+                            <option >more</option>
+                            <option value="m1" id="s1">world test championshi</option>
+                            <option value="m2" id="s1">carrier</option>
+                            <option value="m3" id="s1">photos</option>
+                            
+                        </select>
+                    </li>
+                    <li id="lilast">
+                       <button id="cricplus">CricbuzzPlus</button>
+                    </li>
+                    
+                </ul>
+
+            </div>
+            <div class="headerbottom">
+
+                <ul id="ul2">
+                    <li>
+                        <a href="#MATCHES">MATCHES</a>
+                    </li>
+                    <li>
+                        <a href="#IND vs CAN-PREVIEW">IND vs CAN- PREVIEW</a>
+                    </li>
+                    <li>
+                        <a href="#">NAM vs ENG - PREVIEW</a>
+                    </li>
+                    <li>
+                        <a href="#">RSA vs NEP- RSA Won</a>
+                    </li>
+                    <li>
+                        <a href="#">SL vs PAK - PAK won</a>
+                    </li>
+                    <li>
+                        <a href="#">AUS vs SCO - PREVIEW</a>
+                    </li>
+                    <li id="liselect"> 
+                        <select name="xyz" id="s2">
+                            <option >ALL </option>
+                            <option value="s2">INTERNATIONAL</option>
+                            <option value="s2">OTHER LEAGUES</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="bodycontainer">
+
+            <div class="boxes">
+               <!-- box- 1 -->
+                    <div class="box1">
+                        <p id="p1">33rd Match,Group A.ICC Mens T20 WC-2024 ...<button id="t20button">
+                            T20I
+    
+                        </p>
+    
+                    </button>
+                        <div class="matchinfo">
+                            <img src="in-flag.gif" alt="India" value="India" name="India"> India <br>
+                            <!-- <p id="indialogo">India</p>  -->
+                            <img src="bg-flag.gif" alt="Bangladesh" value="Bangladesh" name="Bangladesh"> Bangladesh
+                            <!-- <p id="banglogo">Bangladesh</p> -->
+                            <h5>Today, 08:00 PM</h5>
+                            <pre id="footermatch">           FANTASY  TABLE  SCHEDULE</pre>
+                           
+                        </div>
+                       
+                    </div>
+
+
+               <!-- box- 2 -->
+               <div class="box1">
+                <p id="p1">34th Match,Group B.ICC Mens T20 WC-2024 ...<button id="t20button">
+                    T20I
+
+                </p>
+
+            </button>
+                <div class="matchinfo">
+                    <img src="as-flag.gif" alt="India" value="India" name="India"> Australia <br>
+                    <!-- <p id="indialogo">India</p>  -->
+                    <img src="nl-flag.gif" alt="Bangladesh" value="Bangladesh" name="Bangladesh"> Netherland
+                    <!-- <p id="banglogo">Bangladesh</p> -->
+                    <h5>Today, 10:30 PM</h5>
+                    <pre id="footermatch">           FANTASY  TABLE  SCHEDULE</pre>
+                   
+                </div>
+               
+            </div>
+
+
+                <!-- box- 3 -->
+
+                <div class="box1">
+                    <p id="p1">31st Match,Group C.ICC Mens T20 WC-2024 ...<button id="t20button">
+                        T20I
+
+                    </p>
+
+                </button>
+                    <div class="matchinfo">
+                        <img src="sf-flag.gif" alt="India" value="India" name="India"> RSA 
+                         &nbsp; <strong>115-7 (20)</strong>
+                       <br>
+                        <!-- <p id="indialogo">India</p>  -->
+                        <img src="nz-flag.gif" alt="Bangladesh" value="Bangladesh" name="Bangladesh">     
+                                NZ   
+                                 &nbsp;                 114-7 (20)
+                        <!-- <p id="banglogo">Bangladesh</p> -->
+                        <h5 style="color:  rgb(65, 65, 197);">South Africa won by 1 run</h5>
+                        <pre id="footermatch">           FANTASY  TABLE  SCHEDULE</pre>
+                       
+                    </div>
+                   
+                </div>
+
+                <!-- box- 4 -->
+                <div class="box1">
+                    <p id="p1">32nd Match,Group C.ICC Mens T20 WC-2024 ..<button id="t20button">
+                        T20I
+
+                    </p>
+
+                </button>
+                    <div class="matchinfo">
+                        <img src="pakistan-flag-png-large.png" alt="India" value="India" name="India"> PAK &nbsp;           <strong>41-1 (5.2)</strong><br>
+                        <!-- <p id="indialogo">India</p>  -->
+                        <img src="af-flag.gif" alt="Bangladesh" value="Bangladesh" name="Bangladesh"> AFG  &nbsp;       40 (18.4)
+                        <!-- <p id="banglogo">Bangladesh</p> -->
+                        <h5 style="color: rgb(65, 65, 197);">Pakisthan won by 9 wkts </h5>
+                        <pre id="footermatch">           FANTASY  TABLE  SCHEDULE</pre>
+                       
+                    </div>
+                   
+                </div>
+                
+            </div>
+            <!-- belowboxes1 -->
+            <div class="belowboxes">
+                <ul id="ul3">
+                    <li>
+                        <h3>T20 World Cup 2024</h3>
+                    </li>
+                    <li>
+                        <a href="#">Matches</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#">Points Table</a>
+                    </li>
+                    <li>
+                        <a href="#">Squads </a>
+                    </li>
+                </ul>
+
+            </div>
+            
+            <!-- belowboxes2 -->
+            <div class="belowboxes">
+                <ul id="ul3">
+                    <li>
+                        <h3>Quick Access</h3>
+                    </li>
+                    <li >
+                        <img src="trophy.png" alt="trophy"> T20 World Cup
+                    </li>
+                    <li>
+                        <img src="trophy.png" alt="trophy"> Fantasy Handbook
+                    </li>
+                    <li>
+                        <img src="starbatch.png" alt="trophy"> See Plans
+                    </li>
+                    <li>
+                        <img src="in-flag.gif" alt="trophy" id="belowboxindia"> Team India
+                    </li>
+                    <li>
+                        <p>+&nbsp;Cricbuzz Plus</p>
+                    </li>
+                    <li>
+                        <img src="starbatch.png" alt="trophy"> CB Plus &
+                    </li>
+                </ul>
+
+            </div>
+            <!-- belowboxes3 -->
+            <div class="belowbox3">
+                <div class="newsbox">
+                    <div class="topnewsbox">
+                        <h5 style="margin-bottom: 0.45rem; color: rgb(58, 150, 58);">LATEST NEWS </h5>
+                        <p> KL Rahul has over 3200 IPL runs to his name and
+                         his run-tally from the last four seasons</p>
+                         <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >2m ago</p>
+                         <hr style="margin: 5px 0;">
+                    </div>
+                    <div class="bottomnewsbox">
+                        
+                       
+                        <p> Qualification Scenarios: Afghanistan's historic win opens up Group 1</p>
+                            <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >10m ago</p>
+                            <hr style="margin: 5px 0;">
+
+                            <p> We beat Australia at last, it's a great achievement for our cricket: Gulbadin Naib</p>
+                                <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >17m ago</p>
+                                <hr style="margin: 5px 0;">
+
+                                <p>The Hardik & Kuldeep star turn</p>
+                                    <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >25m ago</p>
+                                    <hr style="margin: 5px 0;">
+
+                                    <p> Miller handed one demerit point for Level 1 breach</p>
+                                        <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >40m ago</p>
+                                        <hr style="margin: 5px 0;">
+
+                                        <p> "It is so much important for us home and for everyone and all over the world where 
+                                            Afghans are there. They were badly missing this win. I am sure they would be proud of 
+                                            this and would have enjoyed the game. It is just the beginning for us, 
+                                            big game next and we have all the chances of making the semis."</p>
+                                            <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >55m ago</p>
+                                            <hr style="margin: 5px 0;">
+
+                                            <p>Afghanistan's historic win over Australia has opened up Group 1
+                                                 several possibilities with all of the four 
+                                                teams in contention for the two semifinal spots. Here are
+                                                 the scenarios for this group ahead of the final round of Super 8 fixtures.</p>
+                                                <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >1hr ago</p>
+                                                <hr style="margin: 5px 0;">
+
+                                                <p> India are unbeaten in this tournament and the commanding win over Bangladesh has left them well 
+                                                    placed in the group with a healthy NRR of 2.425. Even a defeat to Australia in the final game can see them go through as group winners.</p>
+                                                    <p style="font-size: small; margin-bottom: 1rem; color: rgb(66, 56, 56);" >3hrs ago</p>
+                                                    <hr style="margin: 5px 0;">
+                    </div>
+                </div>
+                <div class="imagebox">
+                    <p style="margin-top: -0.3rem;">ICC MEN'S T20 WORLD CUP 2024</p>
+                    <img src="latestnews.avif" alt="klvirat"  id="hardik" >
+                    <h2 >The Hardik & Arshdeep star turn</h2>
+                    <small >The pair came in clutch in India's 50-run victory over
+                         Bangladesh that puts them within touching distance of a semifinal spot,<br>
+                         Report/ Pandya, Kuldeep headline India's clinical win</small>
+                         
+                         <hr style="margin-top: 0.75rem;">
+
+                         <img src="ipl24winner.jpeg" alt="klvirat"  id="hardik" >
+                    <h2 >Kolkata Knight Riders' Mitchell Starc, the costliest cricketer
+                         in the history of the IPL, was named Player of the Match in the IPL 2024 final.</h2>
+                    <small >The performance followed on from his brilliant
+                         semi-final when he took three wickets and bowled Australia team mate 
+                         Travis Head with the second <ball class="br">
+                            A slow start in the Indian Premier League put Mitchell Starc's record price 
+                            tag under the microscope but the Australian all-formats hero underlined his
+                             worth as he lifted Kolkata Knight Riders to a third title.
+                            
+                            Starc, the costliest cricketer in the history league, 
+                            was named Player of the Match after taking 2-14 against Sunrisers Hyderabad,
+                             including bowling opener Abhishek Sharma with 
+                              pundits judged the generating headlines across the world that compared his $2.98 million price
+                               tag with his paucity of wickets.</ball></small>
+                         
+                         <hr style="margin-top: 0.75rem; margin-bottom: 0;">
+
+                        </div>
+                <div class="featuredvideosbox">
+                    <h5 style="margin-bottom: 0.45rem; color: rgb(58, 150, 58);">FEATURED VIDEOS </h5>
+
+                    <img src="PAKISTHANNEWS.avif" alt="pak"style="width:16rem; height: 10rem; margin-top: 7px ;" ><br>
+
+                    <img src="afridhihd.jpeg" alt="pak"style="width:16rem; height: 10rem; margin-top: 7px ; " ><br>
+                    <button style="width: 4.85rem ;height: 2rem ; background-color:rgb(58, 150, 58) ; margin-bottom: 1.85rem;
+                    color: whitesmoke; font-family: Arial, Helvetica, sans-serif; border-radius: 2px;
+                    margin-left: 5rem; margin-top: 5px;">More videos</button>
+
+                     <h5 style="margin-bottom: 0.45rem; color: rgb(58, 150, 58);">SPECIALS </h5>
+
+                    <img src="rcbhd.jpeg" alt="pak"style="width:16rem; height: 10rem; margin-top: 7px ;" ><br>
+
+                    <img src="rcbhd2.jpg" alt="pak"style="width:16rem; height: 10rem; margin-top: 7px ;" ><br>
+                    <u><h2 style="margin-top: 7.5px;">
+                        IPL 2021:Royal<br>Challengers<br>Bangalore (RCB)<br>Squad, Schedule,<br>Updated Time, <br>And Venue</u>
+
+                    </h2>
+                    
+                  </div>
+                 </div>
+                </div>
+
+    </div>
+</body>
+</html>
